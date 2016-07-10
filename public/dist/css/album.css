@@ -1,0 +1,90 @@
+/* line 1, ../../../scss/album.scss */
+body {
+  min-height: 75rem;
+  /* Can be removed; just added for demo purposes */ }
+
+/* line 5, ../../../scss/album.scss */
+.navbar {
+  margin-bottom: 0; }
+
+/* line 9, ../../../scss/album.scss */
+.navbar-collapse .container-fluid {
+  padding: 2rem 2.5rem;
+  border-bottom: 1px solid #55595c; }
+
+/* line 14, ../../../scss/album.scss */
+.navbar-collapse h4 {
+  color: #818a91; }
+
+/* line 18, ../../../scss/album.scss */
+.navbar-collapse .text-muted {
+  color: #818a91; }
+
+/* line 22, ../../../scss/album.scss */
+.about {
+  float: left;
+  max-width: 30rem;
+  margin-right: 3rem; }
+
+/* line 28, ../../../scss/album.scss */
+.social a {
+  font-weight: 500;
+  color: #eceeef; }
+
+/* line 32, ../../../scss/album.scss */
+.social a:hover {
+  color: #fff; }
+
+/* line 36, ../../../scss/album.scss */
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #fff; }
+
+/* line 43, ../../../scss/album.scss */
+.jumbotron p:last-child {
+  margin-bottom: 0; }
+
+/* line 47, ../../../scss/album.scss */
+.jumbotron-heading {
+  font-weight: 300; }
+
+/* line 51, ../../../scss/album.scss */
+.jumbotron .container {
+  max-width: 40rem; }
+
+/* line 55, ../../../scss/album.scss */
+.album {
+  min-height: 50rem;
+  /* Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7; }
+
+/* line 62, ../../../scss/album.scss */
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0; }
+
+/* line 70, ../../../scss/album.scss */
+.card > img {
+  margin-bottom: .75rem; }
+
+/* line 74, ../../../scss/album.scss */
+.card-text {
+  font-size: 85%; }
+
+/* line 78, ../../../scss/album.scss */
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+/* line 83, ../../../scss/album.scss */
+footer p {
+  margin-bottom: .25rem; }
+
+/*# sourceMappingURL=album.css.map */
