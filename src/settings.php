@@ -17,12 +17,11 @@ return [
         // Database settings
         'database' => [
             'technology' => 'Mysql',
-            // 'hostname'  => 'sql.carTraq.io',
             'hostname'     => 'sql.thru.io',
             'port'     => '3306',
-            'username' => 'carTraq',
-            'password' => 'HS3l626SE34LuvD',
-            'database' => 'carTraq',
+            'username' => 'cartraq',
+            'password' => '551i10dh3UU031e',
+            'database' => 'cartraq',
         ],
     ],
 ];

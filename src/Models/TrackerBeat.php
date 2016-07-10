@@ -9,7 +9,10 @@ use TigerKit\Models;
  * @var $beat_id INTEGER
  * @var $tracker_id INTEGER
  * @var $created DATE
- * @var $latitude DECIMAL(
+ * @var $latitude DECIMAL(15,11)
+ * @var $longitude DECIMAL(15,11)
+ * @var $speed DECIMAL(10,3)
+ * @var $blob BLOB
  */
 class TrackerBeat extends ActiveRecord
 {
@@ -18,8 +21,8 @@ class TrackerBeat extends ActiveRecord
     public $beat_id;
     public $tracker_id;
     public $created;
-    public $latitude;
-    public $longitude;
-    public $speed;
-    public $blob;
+    public $latitude = 0;
+    public $longitude = 0;
+    public $speed = 0;
+    public $blob = '';
 }

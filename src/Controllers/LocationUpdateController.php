@@ -30,22 +30,15 @@ class LocationUpdateController extends Controller{
 
         $tracker = $this->trackerService->findTrackerByHardwareId($body->hardware_id);
         $beat = $this->trackerService->beat($tracker);
-        if(isset($body->volts)) {
-            $beat->volts = intval($body->volts) / 1000;
-        }
-        if(isset($body->heap)) {
-            $beat->heap = intval($body->heap);
-        }
-        if(isset($body->firmware)) {
-            $beat->firmware = $body->firmware;
-        }
+        $beat->latitude = $body->latitude;
+        $beat->longitude = $body->longitude;
+        $beat->speed = $body->speed;
 
-        $beat->ip_address = $request->getServerParams()['REMOTE_ADDR'];
         $beat->save();
 
         $this->jsonResponse([
             'Status' => 'Okay',
-            'HeartbeatInterval' => 10
+            'Beat' => $beat,
         ], $request, $response);
     }
 }
