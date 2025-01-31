@@ -1,37 +1,37 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "8035b664a981e4decd941cb661119a23",
-    "content-hash": "8ca0417bd766727cbad305dd27cc6ae4",
+    "content-hash": "4187f0030d066adc4f164aa7c1795858",
     "packages": [
         {
             "name": "components/jquery",
-            "version": "2.2.4",
+            "version": "3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/jquery.git",
-                "reference": "981036fcb56668433a7eb0d1e71190324b4574df"
+                "reference": "b33e8f0f9a1cb2ae390cf05d766a900b53d2125b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/components/jquery/zipball/981036fcb56668433a7eb0d1e71190324b4574df",
-                "reference": "981036fcb56668433a7eb0d1e71190324b4574df",
+                "url": "https://api.github.com/repos/components/jquery/zipball/b33e8f0f9a1cb2ae390cf05d766a900b53d2125b",
+                "reference": "b33e8f0f9a1cb2ae390cf05d766a900b53d2125b",
                 "shasum": ""
             },
             "type": "component",
             "extra": {
                 "component": {
-                    "scripts": [
-                        "jquery.js"
-                    ],
                     "files": [
                         "jquery.min.js",
                         "jquery.min.map",
-                        "jquery-migrate.js",
-                        "jquery-migrate.min.js"
+                        "jquery.slim.js",
+                        "jquery.slim.min.js",
+                        "jquery.slim.min.map"
+                    ],
+                    "scripts": [
+                        "jquery.js"
                     ]
                 }
             },
@@ -41,13 +41,19 @@
             ],
             "authors": [
                 {
-                    "name": "John Resig",
-                    "email": "jeresig@gmail.com"
+                    "name": "JS Foundation and other contributors"
                 }
             ],
             "description": "jQuery JavaScript Library",
             "homepage": "http://jquery.com",
-            "time": "2016-05-25 06:43:59"
+            "support": {
+                "forum": "http://forum.jquery.com",
+                "irc": "irc://irc.freenode.org/jquery",
+                "issues": "https://github.com/jquery/jquery/issues",
+                "source": "https://github.com/jquery/jquery",
+                "wiki": "http://docs.jquery.com/"
+            },
+            "time": "2020-05-05T13:21:02+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -74,7 +80,7 @@
                 "MIT"
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
-            "time": "2014-12-30 15:22:37"
+            "time": "2014-12-30T15:22:37+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -152,7 +158,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-07-02 14:02:10"
+            "time": "2016-07-02T14:02:10+00:00"
         },
         {
             "name": "nikic/fast-route",
@@ -195,7 +201,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2016-06-12 19:08:51"
+            "time": "2016-06-12T19:08:51+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -241,7 +247,7 @@
                 "container",
                 "dependency injection"
             ],
-            "time": "2015-09-11 15:10:35"
+            "time": "2015-09-11T15:10:35+00:00"
         },
         {
             "name": "psr/http-message",
@@ -290,7 +296,7 @@
                 "request",
                 "response"
             ],
-            "time": "2015-05-04 20:22:00"
+            "time": "2015-05-04T20:22:00+00:00"
         },
         {
             "name": "psr/log",
@@ -328,7 +334,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2012-12-21 11:40:51"
+            "time": "2012-12-21T11:40:51+00:00"
         },
         {
             "name": "raveren/kint",
@@ -379,7 +385,7 @@
                 "kint",
                 "php"
             ],
-            "time": "2015-09-16 14:09:00"
+            "time": "2015-09-16T14:09:00+00:00"
         },
         {
             "name": "slim/php-view",
@@ -428,7 +434,7 @@
                 "template",
                 "view"
             ],
-            "time": "2016-03-04 09:48:50"
+            "time": "2016-03-04T09:48:50+00:00"
         },
         {
             "name": "slim/slim",
@@ -498,7 +504,7 @@
                 "micro",
                 "router"
             ],
-            "time": "2016-05-25 11:23:38"
+            "time": "2016-05-25T11:23:38+00:00"
         },
         {
             "name": "thru.io/active_record",
@@ -551,7 +557,7 @@
                 }
             ],
             "description": "An active-record like implementation",
-            "time": "2016-03-15 22:33:49"
+            "time": "2016-03-15T22:33:49+00:00"
         },
         {
             "name": "thru.io/json-pretty-printer",
@@ -588,7 +594,7 @@
                 }
             ],
             "description": "A simple, well-tested JSON pretty printer and related stuff",
-            "time": "2015-02-18 10:41:12"
+            "time": "2015-02-18T10:41:12+00:00"
         },
         {
             "name": "thru.io/session",
@@ -621,7 +627,7 @@
                 }
             ],
             "description": "Sessions handler",
-            "time": "2016-02-24 05:39:44"
+            "time": "2016-02-24T05:39:44+00:00"
         },
         {
             "name": "thru.io/tiger-kit-models",
@@ -658,7 +664,7 @@
                 }
             ],
             "description": "Models for TigerKit",
-            "time": "2016-05-03 00:08:05"
+            "time": "2016-05-03T00:08:05+00:00"
         },
         {
             "name": "thru.io/uuid",
@@ -693,7 +699,7 @@
                 }
             ],
             "description": "A nice little library to interact with UUIDs",
-            "time": "2016-01-14 15:59:00"
+            "time": "2016-01-14T15:59:00+00:00"
         },
         {
             "name": "twbs/bootstrap",
@@ -744,7 +750,7 @@
                 "sass",
                 "web"
             ],
-            "time": "2015-12-08 17:51:50"
+            "time": "2015-12-08T17:51:50+00:00"
         }
     ],
     "packages-dev": [],
@@ -760,5 +766,6 @@
     "platform": {
         "php": ">=5.5.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
