@@ -15,7 +15,7 @@
         "slim/php-view": "^2.0",
         "monolog/monolog": "^1.17",
         "twbs/bootstrap": "^4.0.0-alpha",
-        "components/jquery": "^2.2",
+        "components/jquery": "^3.5",
         "thru.io/active_record": "^0.4.0",
         "thru.io/session": "dev-master",
         "thru.io/tiger-kit-models": "dev-master",
